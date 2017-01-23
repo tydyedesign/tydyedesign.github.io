@@ -8,7 +8,7 @@ ul.menu {
     padding: 0;
     justify-content: center;
     overflow: hidden;
-    background-color: white;
+    background-color: #b5c6d0;
     display: flex;
     width: 60%;
     flex-flow: row wrap;
@@ -64,7 +64,7 @@ a { color: #b9b9b9; text-decoration: none; -webkit-transition: all 300ms ease; -
 */
 
 body {
-
+ background-color: #d8e1e7;
 }
 
 /* --------------------------------------------
