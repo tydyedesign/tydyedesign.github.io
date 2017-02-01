@@ -116,14 +116,12 @@ section.bio {
 
 .footerlink {
     opacity: 1.0;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-
+    filter: alpha(opacity=50);
 }
 
 .footerlink:hover {
     opacity: 0.3;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
-    
+    filter: alpha(opacity=100);
 }
 
 
@@ -308,6 +306,11 @@ header {
     opacity: .7;
 }
 
+.insideImageContainer:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
 .galleryImageHolder {
     position:relative; width:100%; padding:0 0   75%;overflow:hidden;
 }
@@ -405,3 +408,8 @@ header {
   color: #333333 !important;
   border: 2px solid #ffffff;
 }
+
+/* - - - - - - - HUGE CSS TEXT ... GOOD LUCK xP */
+
+/*! jQuery Mobile 1.4.5 | Git HEADhash: 68e55e7 <> 2014-10-31T17:33:30Z | (c) 2010, 2014 jQuery Foundation, Inc. | jquery.org/license */
+
