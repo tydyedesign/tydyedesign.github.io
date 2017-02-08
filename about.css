@@ -101,6 +101,7 @@ li a:active {
 
 li a:hover:not(.active) {
     color: lightgrey;
+    opacity: .5;
 }
 
 li:last-child {
