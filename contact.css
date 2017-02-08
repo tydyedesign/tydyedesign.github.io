@@ -12,7 +12,7 @@ body {
     height: 100%; 
     background: white;
     background opacity: 0.5;
-    color: white;
+    color: black;
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -293,7 +293,8 @@ div.button {
 }
 
 .divcolor {
-    background-color: #2E5EB5;
+    background-color: #ED2525;
+    opacity: .8;
 }
 
 /* div {
@@ -313,6 +314,33 @@ div.button {
 header {
     background-image: url('');
     background-size:; 
+}
+
+.contactform {
+    float: right;
+    padding-right: 100px;
+    
+}
+
+.aboutdiv {
+    background-color: white;
+    width: 550px;
+}
+
+.mediabox {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+    overflow: hidden;
+    background-color: none;
+    display: flex;
+    width: 50%;
+    flex-flow: row wrap;
+    border: 30px;
+    border-color: black;
+}
+
 }
 
 /* ---------------ImageContainers-----------------------------
