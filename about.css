@@ -82,6 +82,20 @@ ul.menu {
     border-color: black;
 }
 
+.navbar-nav {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+    overflow: hidden;
+    background-color: none;
+    display: flex;
+    width: 70%;
+    flex-flow: row wrap;
+    border: 30px;
+    border-color: black;
+}
+
 ul.menu li {
 	flex: 1 0 8em;
 }
@@ -344,8 +358,7 @@ header {
     position:absolute;border:0;width:100%;top:-10.33%;left:0%;
 }
 
-/* - - - - - Banners- - - - - - - - - - - - - - -  
-*/
+/* - - - - - - - - - - -- - Banners- - - - - - - - - - - - - - -  */
 
 .wsite-background,
 .wsite-header-section {
@@ -433,4 +446,15 @@ header {
   color: #333333 !important;
   border: 2px solid #ffffff;
 }
+
+/*----------------------------------*/
+
+  body {
+      position: relative; 
+  }
+
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #05b30b;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #F9F978;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #2E5EB5;}
+  #section4 {padding-top:50px;height:500px;color: #fff; background-color: #ED2525;}
 
