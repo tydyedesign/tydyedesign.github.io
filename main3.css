@@ -652,3 +652,7 @@ p a:hover {
   }
 }
 /*REEEEEEEEEEESPONSIVE*/
+
+small {
+    font-size: 10px;
+}
