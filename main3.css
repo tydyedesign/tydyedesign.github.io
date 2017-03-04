@@ -381,7 +381,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 }
 
 .socialicon:hover{
-    background:#0000ff;
+    background:#8101A0;
+    border-radius: 50%;
 }
 
 /*-------------------------------------------------------*/
