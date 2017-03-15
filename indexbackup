@@ -186,7 +186,21 @@
 	</li>
 </ul>
 
-   
+    <!-- Grid for projects -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <a href="http://tylertucker55.github.io/ransomhacker" target="_blank"><img src="ransomhackerlogo.png" style="width:100%" class="projectimg" alt="Ransom Hacker Project" title="A text-based game in Java."></a>
+          <a href="http://tylertucker55.github.io/" target="_blank"><img src="apiprojectimg.png" style="width:100%" class="projectimg"></a>
+        <img src="kiahcamera.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="lostjosh.jpg" style="width:100%">
+        <img src="fullmoon.jpg" style="width:100%">
+        <img src="rextemple.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
   <!-- End Portfolio Section -->
   </div>
   
