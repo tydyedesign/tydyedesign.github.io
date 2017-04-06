@@ -1,258 +1,63 @@
-<!DOCTYPE html>
-<html>
-                <title>Tyler Tucker | Portfolio</title>
-    <head> 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" type="image/x-icon" href="cameraprofile.jpg">
-    <link rel="stylesheet" href="main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="jqueryscript.js"></script>
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+                <title>TyDye Design</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="This is TyDyeDesign: A portfolio site about me, Tyler Tucker. Frontend web developer and photographer.">
+    <meta name="keywords" content="BYUI, CIT230, CIT, frontend web development, github,                     weather api, weather underground, weather page, weather project, html,                      javascript, jquery, css, tyler tucker, blog, tylers corner">
+    <meta name="author" content="Tyler Tucker, Tydye design">
+    
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="shortcut icon" href="camera.png">
+    
     </head>
-<body class="w3-black">
-
-<!-- Icon Bar (Sidenav - hidden on small screens) -->
-<nav class="w3-sidenav w3-center w3-small w3-hide-small">
-  <!-- Avatar image in top left corner -->
-  <img src="camera.png" style="width:100%">
-  <a class="w3-padding-large w3-black" href="#">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
-  </a>
-  <a class="w3-padding-large w3-hover-black" href="#about">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT</p>
-  </a>
-  <a class="w3-padding-large w3-hover-black" href="#photos">
-    <i class="fa fa-eye w3-xxlarge"></i>
-    <p>PROJECTS</p>
-  </a>
-  <a class="w3-padding-large w3-hover-black" href="#contact">
-    <i class="fa fa-envelope w3-xxlarge"></i>
-    <p>CONTACT</p>
-  </a>
-</nav>
-    
-
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-      <div id="slider"></div>
-    <a class="w3-bar-item w3-button" style="width:25% !important" href="#">HOME</a>
-    <a class="w3-bar-item w3-button" style="width:25% !important" href="#about">ABOUT</a>
-    <a class="w3-bar-item w3-button" style="width:25% !important" href="#photos">PHOTOS</a>
-    <a class="w3-bar-item w3-button" style="width:25% !important" href="#contact">CONTACT</a>
-  </div>
-</div>
-    
-
-<!-- Page Content -->
-<div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-      <p class="neon"><a href="http://tydyedesign.github.io" target="_blank">
-    TyDye Design
-  </a></p>
-    <h1 class="w3-jumbo"><span class="w3-hide-small">by </span> Tyler Tucker</h1>
-    <p>Web Developer. Photographer.</p>
-    <img src="cameraprofilehd.jpg" alt="boy" class="w3-image" width="700" height="600">
-  </header>
-
-  <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">Tyler Tucker</h2>
-    <hr style="width:200px" class="w3-opacity">
-    <p>I'm Tyler Tucker, an aspiring web/app developer. I'm a junior studying at Brigham Young University-Idaho, majoring in Computer Information Technology. 
-    </p>
-    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-    <p class="w3-wide">Web Frontend Design/Development (HTML/CSS, JavaScript) </p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
-    </div>
-      <p class="w3-wide">Social Media/SEO</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
-    </div>
-      <p class="w3-wide">PHP</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:50%"></div>
-    </div>
-      <p class="w3-wide">Java</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:35%"></div>
-    </div>
-       <p class="w3-wide">SQL/Databases</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:30%"></div>
-    </div>
-      
-      <br>
-      
-    
-    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">30+</span><br>
-        Photos Taken
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">10+</span><br>
-        Projects Done
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">70+</span><br>
-        College Credit Hours
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">150+</span><br>
-        Meetings
-      </div>
-    </div>
-
-    <button class="w3-button w3-padding-large w3-section">
-        <a href="Tyler%20Tucker%20CV%202017%20Feb.pdf" download> <i class="fa fa-download"></i> Download Resume </a>
-    </button>
-    
-    <!-- Grid for pricing tables -->
-    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-          <li class="w3-padding-16">Website Setup: Hosting* and layout</li>
-          <li class="w3-padding-16"> Stock Photography</li>
-          <li class="w3-padding-16">Maintenance</li>
-          <li class="w3-padding-16">Basic SEO</li>
-          <li class="w3-padding-16">
-            <h2>$ 12 </h2>
-            <span class="w3-opacity">per hour</span>
-              <br>
-              <small> *Not including hosting costs, typically around $5/month</small>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-          <li class="w3-padding-16">Customized Web Design</li>
-          <li class="w3-padding-16">Custom Photography</li>
-          <li class="w3-padding-16">Maintenance</li>
-          <li class="w3-padding-16">Social Media</li>
-          <li class="w3-padding-16">
-            <h2>$ 14</h2>
-            <span class="w3-opacity">per hour</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-    <!-- End Grid/Pricing tables -->
-    </div>
-    
-     <!-- Project section -->
-  <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-grey">My Projects</h2>
-    <hr style="width:200px" class="w3-opacity">
-      
-      <ul class="photo-grid">
-	<li>
-		<a href="https://github.com/tylertucker55/ransomhacker" target="_blank">
-			<figure>
-				<img src="ransomhackerlogo.png" height="200" width="320" alt="A text-based game made in Java programming language.">
-				<figcaption><p>A text-based game made in Java programming language.</p></figcaption>
-			</figure>
-		</a>
-	</li>
-	<li>
-		<a href="http://tylertucker55.github.io/">
-			<figure>
-				<img src="weatherapilogo.png" height="180" width="320" alt="A weather site that pulls APIs.">
-				<figcaption><p>A weather site that demonstrates frontend dev skills.</p></figcaption>
-			</figure>
-		</a>
-	</li>
-	<li><a href="https://github.com/tylertucker55/wildwooddatabase/" target="_blank">
-			<figure>
-				<img src="wildwoodapartmentslogo.png" height="180" width="320" alt="A database for a fictional apartment complex.">
-				<figcaption><p>A database for a fictional apartment complex.</p></figcaption>
-			</figure>
-		</a>
-	</li>
-</ul>
-
-   
-  <!-- End Portfolio Section -->
-  </div>
-  
-  <!-- Photo Section -->
-  <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-grey">My Photos</h2>
-    <hr style="width:200px" class="w3-opacity">
-
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <img src="lightpattern.jpg" style="width:100%">
-        <img src="blurrystreetbokeh.jpg" style="width:100%">
-        <img src="kiahcamera.jpg" style="width:100%">
-      </div>
-
-      <div class="w3-half">
-        <img src="lostjosh.jpg" style="width:100%">
-        <img src="fullmoon.jpg" style="width:100%">
-        <img src="rextemple.jpg" style="width:100%">
-      </div>
-    <!-- End photo grid -->
-    </div>
-  <!-- End Portfolio Section -->
-  </div>
-
-  <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-light-grey">Contact Me</h2>
-    <hr style="width:200px" class="w3-opacity">
-
-    <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Provo, UT</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +1-951-821-8031</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: tydyedesign@gmail.com</p>
-    </div><br>
-    <p>Lets get in touch. Send me a message:</p>
-
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="w3-button w3-padding-large" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
-  <!-- End Contact Section -->
-  </div>
-  
-    <!-- Footer -->
-    <center>
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <a href="http://facebook.com/tydyedesign" target="_blank"><i class="fa fa-facebook-official w3-hover-text-indigo"></a></i>
-    <a href="http://instagram.com/tydyedesign" target="_blank"> <i class="fa fa-instagram w3-hover-text-purple"></a></i> 
-    <a href="http://linkedin.com/in/tuckertyler" target="_blank"> <i class="fa fa-linkedin w3-hover-text-indigo"></a></i>
-    <a href="http://github.com/tylertucker55" target="_blank"> <img class="socialicon" src="http://www.iconsplace.com/icons/preview/white/github-256.png" height="27" width="27" style="opacity: .5;"></a>
-    <p class="w3-medium">&copy; 2017 Tyler Tucker</p>
-  <!-- End footer -->
-  </footer>
-        </center>
-
-<!-- END PAGE CONTENT -->
-</div>
-
-</body>
+    <body>
+        <header>
+            <div id="navbarDIV"></div>
+            
+            <h1>TyDye Design</h1>
+            <h2>By Tyler Tucker</h2>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Projects</a></li>
+                </ul>
+            </nav>
+            <hr>
+            
+        </header>
+        <main>
+            <div class="contentdiv">
+                <p>Hello!</p>
+            </div>
+        </main>
+        
+        <footer>
+            
+            <div id="footerid"></div>
+            
+            <p>
+            <a href="http://facebook.com/tydyedesign" target="_blank"><img src="fbicon.png" height="38" width="38" alt="fbicon"></a>
+            <a href="http://instagram.com/tydyedesign" target="_blank"><img src="instaicon.png" height="38" width="38" alt="instagramicon"></a>
+            <a href="tylertucker55@gmail.com"><img src="gmailicon.png" height="38" width="38" alt="gmailicon"></a>
+            <br>
+            &copy; 2017 Tyler Tucker
+            <br>
+                </p>
+        </footer>
+        
+         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        
+        <script type="text/javascript" src="jquery-3.2.0.min.js"> </script>
+        
+        <script type="text/javascript" src="navbar.js"> </script>
+        <script type="text/javascript" src="footer.js"> </script>
+       
+    </body>
 </html>
