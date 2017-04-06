@@ -2,19 +2,23 @@
 ---------------------------TyDye Design Portfolio-----------------------*/
 
 body {
-    font-family:;
-    background-color: none;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto', sans-serif;
+    background-color: #777777;
+    color: black;
 }
 
 main {
-    background-color: aliceblue;
     border: solid black;
     border-width: thin;
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
 }
 
 header {
     text-align: center;
+    background-color: #F6F6F6;
 }
 
 footer {
@@ -22,6 +26,7 @@ footer {
     border: solid black;
     border-width: thin;
     padding-top: 15px;
+    background-color: lightgrey;
 }
 
 /*-----------------Navs and lists--------------*/
@@ -43,18 +48,24 @@ li {
      width: 10%;
 }
 
+li a {
+    display: block;
+}
+
 /*-----------------Divs, paragraphs--------------*/
 
 div.flexcontent {
-    display: flex;
-    width: 10%;
-    flex-wrap: wrap;
+    display: inline-block;
+    width: 50%;
+    flex-wrap: nowrap;
 }
 
 .contentdiv {
     border: solid black;
     border-width: thin;
     max-width: 600px;
+    background-color: none;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
 }
 
 .contentdiv p {
@@ -73,8 +84,19 @@ aside {
     padding: 1em;
 }
 
+.card{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
+}
+
+div.banner {
+    background-color: #F17581;
+    padding: 2px;
+}
+
 /*-----------------Mobile--------------*/
 
-@media {
-    @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@media only screen and (max-width: 500px) {
+    ul {
+        flex-direction: column;
+    }
 }
