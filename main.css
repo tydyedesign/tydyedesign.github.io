@@ -1,6 +1,8 @@
 /*-----------------Copyright 2017 Tyler Tucker TyDye Design--------------
 ---------------------------TyDye Design Portfolio-----------------------*/
 
+/*-----------------body, main, fonts--------------*/
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #777777;
@@ -30,6 +32,8 @@ a {
 a:hover { 
      color: gray;
 }
+
+/*-----------------header, footer, social icons--------------*/
 
 header {
     text-align: center;
