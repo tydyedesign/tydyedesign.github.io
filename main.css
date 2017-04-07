@@ -107,6 +107,10 @@ li a {
     display: block;
 }
 
+a:visited {
+    background-color: gray;
+}
+
 /*-----------------Divs, paragraphs--------------*/
 
 div.flexcontent {
