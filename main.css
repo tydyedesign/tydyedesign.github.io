@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #777777;
+    background-color: white;
     color: black;
 }
 
@@ -37,7 +37,7 @@ a:hover {
 
 header {
     text-align: center;
-    background-color: #F6F6F6;
+    background-color: none;
 }
 
 footer {
@@ -45,7 +45,7 @@ footer {
     border: solid black;
     border-width: thin;
     padding-top: 15px;
-    background-color: lightgrey;
+    background-color: none;
 }
 
 .fbicon:hover {
@@ -91,9 +91,10 @@ footer {
 /*-----------------Navs and lists--------------*/
 
 nav {
-    background-color: lightgrey;
+    background-color: white;
     border: solid black;
     border-width: thin;
+    text-align: center;
 }
 
 ul {
@@ -103,7 +104,6 @@ ul {
 }
 
 li {
-    display: block;
      width: 10%;
 }
 
@@ -117,7 +117,13 @@ a:visited {
 
 /*-----------------Divs, paragraphs--------------*/
 
-div.flexcontent {
+.flexcontent {
+    display: inline-block;
+    width: 50%;
+    flex-wrap: nowrap;
+}
+
+.flexcontent-about {
     display: inline-block;
     width: 50%;
     flex-wrap: nowrap;
@@ -151,14 +157,29 @@ aside {
     box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
 }
 
-div.banner {
+.bannercontact {
     background-color: #F17581;
+    padding: 2px;
+}
+
+.bannerabout {
+    background-color: #FCDE4D;
+    padding: 2px;
+}
+
+.bannerhome {
+    background-color: #84DE44;
+    padding: 2px;
+}
+
+.bannerprojects {
+    background-color: #9B5ABF;
     padding: 2px;
 }
 
 /*-----------------Mobile--------------*/
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
     ul {
         flex-direction: column;
     }
@@ -168,3 +189,4 @@ div.banner {
         flex-direction: column;
     }
 }
+*/
