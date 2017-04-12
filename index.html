@@ -43,6 +43,17 @@
             </div>
                 <br>
             
+            <div class="image">
+
+      <img src="camera.png" height="600" width="800" alt="camera" />
+      
+      <h2 class="captionh2"><span>This is me:<span class='spacer'></span><br /><span class='spacer'></span>Tyler Tucker</span></h2>
+
+            </div>
+            
+           
+            <br>
+            
             <div class="flexcontent">
                 <article class="contentdiv">
                     <p>Hello!</p>
@@ -57,6 +68,7 @@
         </main>
         
         <footer>
+            <hr>
             
             <div id="footerid"></div>
             
@@ -79,6 +91,20 @@
         
         <script type="text/javascript" src="navbar.js"> </script>
         <script type="text/javascript" src="footer.js"> </script>
+        
+        <script type="text/javascript">
+            
+            $(function() {
+    
+            $("h2")
+                .wrapInner("<span>")
+
+            $("h2 br")
+        .before("<span class='spacer'>")
+        .after("<span class='spacer'>");
+
+});
+        </script>
        
     </body>
 </html>
