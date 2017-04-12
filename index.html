@@ -94,6 +94,19 @@
         
         <script type="text/javascript">
             
+           $(document).ready(function() {
+    $('.bannerhome').mouseenter(function() {
+        $('.bannerhome').fadeTo('fast', 0.5);
+    });
+    
+    $('.bannerhome').mouseleave(function() {
+        $('.bannerhome').fadeTo('fast', 1);
+});
+ });
+        </script>
+        
+        <script type="text/javascript">
+            
             $(function() {
     
             $("h2")
@@ -103,7 +116,8 @@
         .before("<span class='spacer'>")
         .after("<span class='spacer'>");
 
-});
+            });
+            
         </script>
        
     </body>
