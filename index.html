@@ -43,13 +43,10 @@
             </div>
                 <br>
             
-            <div class="image">
-
-      <img src="camera.png" height="600" width="800" alt="camera" />
-      
-      <h2 class="captionh2"><span>This is me:<span class='spacer'></span><br /><span class='spacer'></span>Tyler Tucker</span></h2>
-
-            </div>
+            <img src="camera.png" class="rollme" height="400" width="500" alt="camera" />
+            <br>
+            <span class="captionme"><h1>Camera Picture</h1></span>
+            <br>
             
            
             <br>
@@ -95,30 +92,27 @@
         <script type="text/javascript">
             
            $(document).ready(function() {
-    $('.bannerhome').mouseenter(function() {
-        $('.bannerhome').fadeTo('fast', 0.5);
+    $('.rollme').mouseenter(function() {
+        $('.rollme').fadeTo('fast', 0.5);
+        $('.captionme').fadeTo('fast', 1);
     });
     
-    $('.bannerhome').mouseleave(function() {
-        $('.bannerhome').fadeTo('fast', 1);
+    $('.rollme').mouseleave(function() {
+        $('.rollme').fadeTo('fast', 1);
+        $('.captionme').fadeTo('fast', 0);
 });
- });
+               
+       $('.bannerhome').click(function() {
+        $('.bannerhome').hide('slow');
+           
+});
+            
+        
+});
+    
+            
         </script>
         
-        <script type="text/javascript">
-            
-            $(function() {
-    
-            $("h2")
-                .wrapInner("<span>")
-
-            $("h2 br")
-        .before("<span class='spacer'>")
-        .after("<span class='spacer'>");
-
-            });
-            
-        </script>
        
     </body>
 </html>
