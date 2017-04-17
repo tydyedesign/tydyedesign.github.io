@@ -11,19 +11,23 @@
     <meta name="author" content="Tyler Tucker, Tydye design">
     
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="shineexamplecss.css">
     <link rel="shortcut icon" href="camera.png">
     
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     </head>
     <body>
         <header>
             <div id="navbarDIV"></div>
             
-            <h1>TyDye Design</h1>
+            <h1 class="">TyDye Design</h1>
             <h2>By Tyler Tucker</h2>
+            
+            <h1 class="shine large light shine-text-color">shine.js</h1>
+            <p class="medium shine-text-color shine-text-color-dark">
+                A library for pretty shadows.
+            </p>
             
             <nav>
                 <ul>
@@ -47,8 +51,11 @@
             <br>
             <span class="captionme"><h1>Camera Picture</h1></span>
             <br>
+            <br>
             
-           
+            <img src="cameraprofilehd.jpg" class="rollme2" height="400" width="500" alt="camera" />
+            <br>
+            <span class="captionme2"><h1>Camera Profile</h1></span>
             <br>
             
             <div class="flexcontent">
@@ -86,31 +93,21 @@
         
         <script type="text/javascript" src="jquery-3.2.0.min.js"> </script>
         
+        <script src="shine.js-master/dist/shine.min.js"></script>
+        
         <script type="text/javascript" src="navbar.js"> </script>
         <script type="text/javascript" src="footer.js"> </script>
         
-        <script type="text/javascript">
-            
-           $(document).ready(function() {
-    $('.rollme').mouseenter(function() {
-        $('.rollme').fadeTo('fast', 0.5);
-        $('.captionme').fadeTo('fast', 1);
-    });
-    
-    $('.rollme').mouseleave(function() {
-        $('.rollme').fadeTo('fast', 1);
-        $('.captionme').fadeTo('fast', 0);
-});
-               
-       $('.bannerhome').click(function() {
-        $('.bannerhome').hide('slow');
-           
-});
-            
+        <script type="text/javascript" src="hoverpics.js"> </script>
         
-});
-    
+        <script type="text/javascript">
+            var shine = new Shine(document.getElementById('my-shine-object'));
             
+            window.addEventListener('mousemove', function(event) {
+                shine.light.position.x = event.clientX;
+                shine.light.position.y = event.clientY;
+                shine.draw();
+                }, false);
         </script>
         
        
