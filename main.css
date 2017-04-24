@@ -174,9 +174,9 @@ a:visited {
 }
 
 .flexcontent-about {
-    display: inline-block;
-    width: 50%;
-    flex-wrap: nowrap;
+    border: solid black .1em;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
+    width: 90%;
 }
 
 .contentdiv {
@@ -316,7 +316,6 @@ h2 span.spacer {
     font-size: 40px;
 }
 
-
 .captionme2 {
     opacity: 0;
     position: absolute; 
@@ -330,16 +329,7 @@ h2 span.spacer {
     box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
 }
 
-/*
-.imghover:hover {
-    opacity: .6;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -ms-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-}
-*/
+/*-------------------------captions----------------*/
 
 .tythoughtscap {
     opacity: 0;
@@ -358,4 +348,50 @@ h2 span.spacer {
     right: 0px;
     width: 48%; 
     font-size: 17px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.cardtitle {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card-a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
 }
