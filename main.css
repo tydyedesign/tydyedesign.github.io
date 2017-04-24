@@ -213,7 +213,7 @@ aside {
 }
 
 .bannerabout {
-    background-color: #FCDE4D;
+    background-color: #4C7CE9;
     padding: 2px;
 }
 
@@ -225,6 +225,12 @@ aside {
 .bannerprojects {
     background-color: #9B5ABF;
     padding: 2px;
+}
+
+.banner404 {
+    background-color: #FCDE4D;
+    padding: 2px;
+    color: black;
 }
 
 /*------------------------Mobile-------------------------*/
@@ -295,6 +301,10 @@ h2 span {
 
 h2 span.spacer {
    padding:0 5px;
+}
+
+.h3404 {
+    color: black;
 }
 
 .captionme {

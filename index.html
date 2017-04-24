@@ -24,11 +24,6 @@
             <h1 class="">TyDye Design</h1>
             <h2>By Tyler Tucker</h2>
             
-            <h1 class="shine large light shine-text-color">shine.js</h1>
-            <p class="medium shine-text-color shine-text-color-dark">
-                A library for pretty shadows.
-            </p>
-            
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -93,23 +88,10 @@
         
         <script type="text/javascript" src="jquery-3.2.0.min.js"> </script>
         
-        <script src="shine.js-master/dist/shine.min.js"></script>
-        
         <script type="text/javascript" src="navbar.js"> </script>
         <script type="text/javascript" src="footer.js"> </script>
         
         <script type="text/javascript" src="hoverpics.js"> </script>
-        
-        <script type="text/javascript">
-            var shine = new Shine(document.getElementById('my-shine-object'));
-            
-            window.addEventListener('mousemove', function(event) {
-                shine.light.position.x = event.clientX;
-                shine.light.position.y = event.clientY;
-                shine.draw();
-                }, false);
-        </script>
-        
-       
+
     </body>
 </html>

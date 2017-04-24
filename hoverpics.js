@@ -8,12 +8,7 @@
         $('.rollme').fadeTo('fast', 1);
         $('.captionme').fadeTo('fast', 0);
 });
-               
-       $('.bannerhome').click(function() {
-        $('.bannerhome').hide('slow');
-           
-});
-            
+                
         
 });
             
@@ -26,11 +21,6 @@
     $('.rollme2').mouseleave(function() {
         $('.rollme2').fadeTo('fast', 1);
         $('.captionme2').fadeTo('fast', 0);
-});
-               
-       $('.bannerhome2').click(function() {
-        $('.bannerhome2').hide('slow');
-           
 });
             
         
