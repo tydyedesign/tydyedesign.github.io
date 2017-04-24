@@ -41,6 +41,10 @@
             </div>
                 <br>
             
+            <div id="id01">
+{{firstName}} {{lastName}}
+</div>
+            
         <div id="picturediv">
             
             <br>
@@ -65,22 +69,7 @@
         </main>
         
         <footer>
-            
-            <hr>
-            
             <div id="footerid"></div>
-            
-            <p>
-            <a href="http://facebook.com/tydyedesign" target="_blank"><img src="fblogo.png" class="fbicon" height="38" width="38" alt="FB Icon"></a>
-            <a href="http://instagram.com/tydyedesign" target="_blank"><img src="instalogo.png" class="instaicon" height="38" width="38" alt="Instagram Icon"></a>
-            <a href="linkedin.com/in/tuckertyler"><img src="linkedlogo.png" class="linkedicon" height="38" width="38" alt="LinkedIn Icon"></a>
-            <a href="http://github.com/tylertucker55"><img src="githublogo.png" class="githubicon" height="38" width="38" alt="Github Icon"></a>
-            <br>
-            <br>
-            &copy; 2017 Tyler Tucker
-            <br>
-                </p>
-           
         </footer>
         
          <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -91,6 +80,13 @@
         
         <script type="text/javascript" src="navbar.js"> </script>
         <script type="text/javascript" src="footer.js"> </script>
+        
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        
+        <script>
+            var myObject= {"URL" : "/camera.png", "alt" : "Camera Pic"};
+            w3.displayObject("id01", myObject);
+        </script>
        
     </body>
 </html>
