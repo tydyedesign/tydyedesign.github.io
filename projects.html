@@ -25,10 +25,10 @@
             
             <nav>
                 <ul>
-                    <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
-                    <li><a href=""><i class="fa fa-male"></i> About</a></li>
-                    <li><a href=""><i class="fa fa-phone"></i> Contact</a></li>
-                    <li><a href=""><i class="fa fa-book"></i> Projects</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="projects.html">Projects</a></li>
                 </ul>
             </nav>
             <hr>
@@ -42,7 +42,11 @@
                 <br>
             
             <div id="id01">
-{{firstName}} {{lastName}}
+{{URL}} {{URL2}} {{URL3}}
+</div>
+            
+            <div id="id02">
+{{URL}}
 </div>
             
         <div id="picturediv">
@@ -84,7 +88,7 @@
         <script src="https://www.w3schools.com/lib/w3.js"></script>
         
         <script>
-            var myObject= {"URL" : "/camera.png", "alt" : "Camera Pic"};
+            var myObject= {"URL" : "<img src='camera.png' height='200' width='300'>", "URL2" : "<img src='cameraprofilehd.jpg' height='200' width='300'>", "URL3" : "<img src='desk.jpg' height='200' width='300'>"};
             w3.displayObject("id01", myObject);
         </script>
        
