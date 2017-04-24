@@ -11,17 +11,18 @@
     <meta name="author" content="Tyler Tucker, Tydye design">
     
     <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" type="text/css" href="shineexamplecss.css">
     <link rel="shortcut icon" href="camera.png">
     
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     
     </head>
     <body>
         <header>
             <div id="navbarDIV"></div>
             
-            <h1 class="">TyDye Design</h1>
+            <h1 class="titleh1">TyDye Design</h1>
             <h2>By Tyler Tucker</h2>
             
             <nav>
@@ -42,22 +43,20 @@
             </div>
                 <br>
             
-            <img src="camera.png" class="rollme" height="400" width="500" alt="camera" />
-            <br>
-            <span class="captionme"><h1>Camera Picture</h1></span>
-            <br>
-            <br>
-            
-            <img src="cameraprofilehd.jpg" class="rollme2" height="400" width="500" alt="camera" />
-            <br>
-            <span class="captionme2"><h1>Camera Profile</h1></span>
-            <br>
+           <div class="w3-content w3-section" style="max-width:none; max-height:30%;">
+
+            <img class="mySlides w3-animate-fading" src="camera.png" width="700" height="500">
+            <img class="mySlides w3-animate-fading" src="cameraprofilehd.jpg" width="700" height="500">
+            <img class="mySlides w3-animate-fading" src="desk.jpg" width="700" height="500">
+            <img class="mySlides w3-animate-fading" src="blurrystreetbokeh.jpg" width="700" height="500">
+<!--
+            <div class="mySlides w3-animate-fading" id="divSlide" style="background-color:red;">
+                <h3> Hello! </h3>
+            </div>
+-->
+        </div>
             
             <div class="flexcontent">
-                <article class="contentdiv">
-                    <p>Hello!</p>
-                </article>
-                <br>
                 <article class="contentdiv">
                     <p>Hello!</p>
                 </article>
@@ -92,6 +91,23 @@
         <script type="text/javascript" src="footer.js"> </script>
         
         <script type="text/javascript" src="hoverpics.js"> </script>
+        
+        <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 9000);    
+}
+</script>
 
     </body>
 </html>
