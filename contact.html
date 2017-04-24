@@ -29,20 +29,7 @@
             </div>
                 <br>
             
-            <div class="w3-content w3-section" style="max-width:none; max-height:700px;">
-  <p>The w3-animate-fading class animates an element in and out (takes about 10 seconds).</p>
-
-  <img class="mySlides w3-animate-fading" src="camera.png" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="cameraprofilehd.jpg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="desk.jpg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="blurrystreetbokeh.jpg" style="width:100%">
-</div>
-            
             <div class="flexcontent">
-                <article class="contentdiv">
-                    <p>Hello!</p>
-                </article>
-                <br>
                 <article class="contentdiv">
                     <p>Hello!</p>
                 </article>
@@ -61,23 +48,6 @@
         
         <script type="text/javascript" src="navbar.js"> </script>
         <script type="text/javascript" src="footer.js"> </script>
-        
-        <script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 9000);    
-}
-</script>
        
     </body>
 </html>
