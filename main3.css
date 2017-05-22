@@ -1,0 +1,359 @@
+/*-----------------Copyright 2017 Tyler Tucker TyDye Design--------------
+---------------------------TyDye Design Portfolio-----------------------*/
+
+/*-----------------body, main, fonts--------------*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+}
+
+.titleh1 {
+    padding-top: 50px;
+    font-size: 60px;
+}
+/*
+
+.titleh2 {
+    padding-top: 50px;
+    font-size: 30px;
+}
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.landingbody {
+    background-color: black;
+}
+
+main {
+    border: none;
+    border-width: thin;
+    background-color: none;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+a { 
+    color: black;
+    opacity: .8;
+    text-decoration: none; 
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease; 
+    -o-transition: all 300ms ease; 
+    transition: all 300ms ease; 
+}
+
+a:hover { 
+     color: gray;
+}
+
+/*-----------------header, footer, social icons--------------*/
+
+header {
+    text-align: center;
+    background-color: none;
+}
+
+footer {
+    text-align: center;
+    border: none;
+    border-width: thin;
+    padding-top: 15px;
+    background-color: none;
+}
+
+.fbicon:hover {
+    background-color: blue;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease; 
+    -o-transition: all 300ms ease; 
+    transition: all 300ms ease; 
+}
+
+.instaicon:hover {
+    background-color: orange;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease; 
+    -o-transition: all 300ms ease; 
+    transition: all 300ms ease; 
+}
+
+.linkedicon:hover {
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease; 
+    -o-transition: all 300ms ease; 
+    transition: all 300ms ease; 
+}
+
+.githubicon:hover {
+    background-color: purple;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease; 
+    -o-transition: all 300ms ease; 
+    transition: all 300ms ease; 
+}
+
+/*-----------------Navs and lists--------------*/
+/*
+
+nav {
+    background-color: white;
+    border: solid black;
+    border-width: thin;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+     width: 10%;
+}
+
+li a {
+    display: block;
+}
+
+a:visited {
+    background-color: gray;
+}
+*/
+
+/*-----------------Divs, paragraphs--------------*/
+
+.flexcontent {
+    display: inline-block;
+    width: 50%;
+    flex-wrap: nowrap;
+}
+
+.flexcontent-about {
+    border: solid black .1em;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
+    width: 90%;
+}
+
+.contentdiv {
+    border: solid black;
+    border-width: thin;
+    max-width: 600px;
+    background-color: none;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
+}
+
+.contentdiv p {
+    text-align: center;
+}
+
+.sidebar {
+    
+}
+
+article {
+    margin: 1em;
+}
+
+aside {
+    padding: 1em;
+}
+
+.card{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
+}
+
+.bannercontact {
+    background-color: #F17581;
+    padding: 2px;
+}
+
+.bannerabout {
+    background-color: #4C7CE9;
+    padding: 2px;
+}
+
+.bannerhome {
+    background-color: #84DE44;
+    padding: 2px;
+}
+
+.bannerprojects {
+    background-color: #9B5ABF;
+    padding: 2px;
+}
+
+.banner404 {
+    background-color: #FCDE4D;
+    padding: 2px;
+    color: black;
+}
+
+/*------------------------Mobile-------------------------*/
+
+@media only screen and (max-width: 500px) {
+    ul {
+        flex-direction: column;
+    }
+    .img {
+        width: 100%;
+        height: 50%;
+    }
+    li {
+        border-bottom: solid black;
+    }
+}
+
+/*-----------------Images, captions, spans--------------*/
+
+.image { 
+   position: relative; 
+   width: 100%;
+}
+
+.landingimg {
+    border-radius: 50%;
+    background-color: dimgray;
+    box-shadow:0 20px 20px 0 gray,0 0px 20px 0 gray!important;
+}
+
+/*
+
+.vignette-radial {
+  position: relative;
+  height: 400px;
+  width: 600px;
+  display: block;
+  background-image: url('cameraprofilehd.jpg');
+  background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.vignette-radial:after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: radial-gradient(circle, transparent 50%, black 100%);
+  border-radius: 50%;
+}
+*/
+
+.captionh2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+h2 span.spacer {
+   padding:0 5px;
+}
+
+.h3404 {
+    color: black;
+}
+
+.captionme {
+    opacity: 0;
+    position: absolute; 
+    top: 400px; 
+    left: 0; 
+    width: 100%; 
+    font-size: 40px;
+}
+
+.captionme2 {
+    opacity: 0;
+    position: absolute; 
+    top: 800px; 
+    left: 0; 
+    width: 100%; 
+    font-size: 40px;
+}
+
+.picturediv {
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
+}
+
+/*-------------------------captions----------------*/
+
+.tythoughtscap {
+    opacity: 0;
+    position: absolute; 
+    top: 340px; 
+    left: 0; 
+    width: 100%; 
+    font-size: 17px;
+}
+
+.calccap {
+    opacity: 0;
+    position: absolute; 
+    top: 340px; 
+    left: 0px;
+    right: 0px;
+    width: 48%; 
+    font-size: 17px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}

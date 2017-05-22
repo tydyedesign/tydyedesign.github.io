@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+                <title>TyDye Design | Home</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="This is TyDyeDesign: A portfolio site about me, Tyler Tucker. Frontend web developer and photographer.">
+    <meta name="keywords" content="BYUI, CIT230, CIT, frontend web development, github,                     weather api, weather underground, weather page, weather project, html,                      javascript, jquery, css, tyler tucker, blog, tylers corner">
+    <meta name="author" content="Tyler Tucker, Tydye design">
+    
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="shortcut icon" href="camera.png">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    </head>
+    <body>
+        <header>
+            <div id="navbarDIV"></div>
+        </header>
+        <main>
+            
+            <div class="bannerhome">
+                <h3>Home</h3>
+            </div>
+                <br>
+            
+            <button onclick="w3.addStyle('main','background-color','black')">Lights off</button>
+            <button onclick="w3.addStyle('main','background-color','white')">Lights on</button>
+                     
+           <div class="w3-content w3-section" style="max-width:none; max-height:30%;">
+            <img class="mySlides w3-animate-fading" src="camera.png" width="700" height="500">
+            <img class="mySlides w3-animate-fading" src="cameraprofilehd.jpg" width="700" height="500">
+            <img class="mySlides w3-animate-fading" src="desk.jpg" width="700" height="500">
+            <img class="mySlides w3-animate-fading" src="blurrystreetbokeh.jpg" width="700" height="500">
+        </div>
+            
+            <div class="flexcontent">
+                <article class="contentdiv">
+                    <p>Hello!</p>
+                </article>
+                <br>
+            </div>
+                <br>
+        </main>
+        
+        <footer>
+            <div id="footerid"></div>
+        </footer>
+        
+         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        
+        <script type="text/javascript" src="jquery-3.2.0.min.js"> </script>
+        
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        
+        <script type="text/javascript" src="navbar.js"> </script>
+        <script type="text/javascript" src="footer.js"> </script>
+        
+        <script type="text/javascript" src="hoverpics.js"> </script>
+        
+        <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 9000);    
+}
+</script>
+
+    </body>
+</html>

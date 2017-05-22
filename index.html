@@ -1,84 +1,97 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>TyDye Design</title>
+    
     <meta charset="utf-8">
-                <title>TyDye Design | Home</title>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <meta name="description" content="This is TyDyeDesign: A portfolio site about me, Tyler Tucker. Frontend web developer and photographer.">
-    <meta name="keywords" content="BYUI, CIT230, CIT, frontend web development, github,                     weather api, weather underground, weather page, weather project, html,                      javascript, jquery, css, tyler tucker, blog, tylers corner">
+    <meta name="keywords" content="BYUI, CIT230, CIT, frontend web development, github, weather api, weather underground, weather page, weather project, html, javascript, jquery, css, tyler tucker, blog, tylers corner">
     <meta name="author" content="Tyler Tucker, Tydye design">
-    
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="shortcut icon" href="camera.png">
-    
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    
-    </head>
-    <body>
-        <header>
-            <div id="navbarDIV"></div>
-        </header>
-        <main>
-            
-            <div class="bannerhome">
-                <h3>Home</h3>
-            </div>
-                <br>
-            
-            <button onclick="w3.addStyle('main','background-color','black')">Lights off</button>
-            <button onclick="w3.addStyle('main','background-color','white')">Lights on</button>
-                     
-           <div class="w3-content w3-section" style="max-width:none; max-height:30%;">
-            <img class="mySlides w3-animate-fading" src="camera.png" width="700" height="500">
-            <img class="mySlides w3-animate-fading" src="cameraprofilehd.jpg" width="700" height="500">
-            <img class="mySlides w3-animate-fading" src="desk.jpg" width="700" height="500">
-            <img class="mySlides w3-animate-fading" src="blurrystreetbokeh.jpg" width="700" height="500">
-        </div>
-            
-            <div class="flexcontent">
-                <article class="contentdiv">
-                    <p>Hello!</p>
-                </article>
-                <br>
-            </div>
-                <br>
-        </main>
-        
-        <footer>
-            <div id="footerid"></div>
-        </footer>
-        
-         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        
-        <script type="text/javascript" src="jquery-3.2.0.min.js"> </script>
-        
-        <script src="https://www.w3schools.com/lib/w3.js"></script>
-        
-        <script type="text/javascript" src="navbar.js"> </script>
-        <script type="text/javascript" src="footer.js"> </script>
-        
-        <script type="text/javascript" src="hoverpics.js"> </script>
-        
-        <script>
-var myIndex = 0;
-carousel();
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 9000);    
-}
-</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="bootpage2.css">
+    
+</head>
+<body>
 
-    </body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">TyDye Design</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="bootpage2.html">Home</a></li>
+        <li><a href="project2.html">Projects</a></li>
+        <li><a href="about2.html">About</a></li>
+        <li><a href="contact2.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="contact.html"><span class="glyphicon glyphicon-phone"></span> 951-821-8031</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron" style="" id="headerbg">
+  <div class="container text-center">
+    <div class="headercontainer"><h1 class="titleh1">TyDye Design</h1></div>   
+      <div class="headercontainer2"><p>By Tyler Tucker</p></div>
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+ 
+    <h2>Responsive Design</h2>
+ 
+<div class="parallax"></div>
+
+<div class="well" style="height:410px;background-color:#;font-size:25px">
+    <h2>Dynamic Pages</h2>
+    <p>TyDye Design offers great responsive designs: using various frameworks with customization allows for dynamic web pages.</p>
+    <h3>Bootstrap, W3.css, and more!</h3>
+    <hr>
+    <h2>Various CMS</h2>
+    <p>Allowing customized work to be done on various content management systems, providing a great flowing webpage that sets you ahead of the competition.</p>
+    <h3>Weebly, Wix, WordPress</h3>
+</div>
+    
+    <div class="parallax2"></div>
+    
+    <div class="well" style="height:300px;background-color:#;font-size:25px">
+        <h2>Don't believe it? See for yourself</h2>
+        <p>
+            Check out some of my latest work on my project page:
+        <br>
+            <a href="project2.html" class="btn btn-default" id="projectbtn">Projects</a>
+        </p>
+</div>
+    
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>
+            <a href="http://facebook.com/tydyedesign" target="_blank"><img src="fblogo.png" class="fbicon" height="38" width="38" alt="FB Icon"></a>
+            <a href="http://instagram.com/tydyedesign" target="_blank"><img src="instalogo.png" class="instaicon" height="38" width="38" alt="Instagram Icon"></a>
+            <a href="linkedin.com/in/tuckertyler"><img src="linkedlogo.png" class="linkedicon" height="38" width="38" alt="LinkedIn Icon"></a>
+            <a href="http://github.com/tylertucker55"><img src="githublogo.png" class="githubicon" height="38" width="38" alt="Github Icon"></a>
+            <br>
+            <br>
+            &copy; 2017 Tyler Tucker
+                </p>
+</footer>
+
+</body>
 </html>
