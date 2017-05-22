@@ -118,3 +118,33 @@ footer {
     background-color: #FFAAAA;
     
 }
+
+#projectimg:hover {
+    opacity: .5;
+     -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease; 
+    -o-transition: all 300ms ease; 
+    transition: all 300ms ease; 
+}
+
+#headerbg {
+    background-image: url('fwpano.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titleh1 {
+    opacity: 1;
+}
+
+.headercontainer {
+    background-color: lightgray;
+    opacity: .8;
+}
+
+.headercontainer2 {
+    background-color: lightgray;
+    opacity: .7;
+   
+}
