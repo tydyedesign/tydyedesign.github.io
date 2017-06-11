@@ -150,3 +150,38 @@ footer {
 }
 
 #success_message{ display: none;}
+
+
+/*------------------Italic contact colors-------------------*/
+
+#insta {
+    color: orange;
+}
+
+#insta:hover {
+    color: #FFC990;
+}
+
+#gmail {
+    color: green;
+}
+
+#gmail:hover {
+    color: #87EF87;
+}
+
+#fb {
+    color: blue;
+}
+
+#fb:hover {
+    color: #9193E7;
+}
+
+#number {
+    color: purple;
+}
+
+#number:hover {
+    color: #C654D2;
+}
