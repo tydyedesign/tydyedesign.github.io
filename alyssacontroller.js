@@ -1,13 +1,14 @@
 app.controller('MainController', ['$scope', function($scope) { 
   $scope.title = 'Alyssa'; 
-  $scope.subtitle = 'A demonstration of photography and photoshop skills as well as Angular.js.';
+  $scope.subtitle = 'Photography/photoshop skills.';
+  $scope.angulartitle = 'Displayed in Angular.js.';
   $scope.photos = [ 
   { 
     name: 'Dichotomy', 
     caption: 'A contrast of ideas within oneself', 
     picture: 'alyssa4.jpg',
     alt: 'Dichotomy',
-    class: ''
+    class: 'img-responsive'
   }, 
   { 
     name: 'Lens Flare', 
