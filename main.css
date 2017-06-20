@@ -151,6 +151,11 @@ footer {
 
 #success_message{ display: none;}
 
+.footerlist {
+    list-style-type: none;
+    text-align: left;
+}
+
 
 /*------------------Italic contact colors-------------------*/
 
