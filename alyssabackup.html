@@ -2,23 +2,24 @@
 <html lang="en">
 <head>
   <title>TyDye Design | Alyssa Album</title>
+    
     <link rel="shortcut icon" type="image/png" href="camera.png"/>
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <!---Meta information-->
     <meta name="description" content="This is TyDyeDesign: A portfolio site about me, Tyler Tucker. Frontend web developer and photographer.">
     <meta name="keywords" content="BYUI, CIT230, CIT, frontend web development, github, weather api, weather underground, weather page, weather project, html, javascript, jquery, css, tyler tucker, blog, tylers corner">
     <meta name="author" content="Tyler Tucker, Tydye design">
 
-    <!---jquery cdn, Boostrap cdn-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
-    <!---Stylesheets, icons, bootstrap--->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
     <link rel="stylesheet" type="text/css" href="main.css">
     
 </head>
@@ -55,36 +56,70 @@
   </div>
 </div>
   
-<div class="container-fluid bg-3 text-center" ng-controller="MainController">    
-  <h2>{{ title }}</h2><br>
-    <h3>{{ subtitle }}</h3>
-    </div>
+<div class="container-fluid bg-3 text-center">    
+  <h3>Alyssa</h3><br>
     <hr>
     
     <div class="main" ng-controller="MainController">
     
   <div class="row">
     <div ng-repeat="photo in photos" class="col-sm-4">
+        <img ng-src="{{ product.cover }}">
+    <p class="title">{{ product.name }}</p> 
+    <p class="price">{{ product.price | currency }}</p> 
+    <p class="date">{{ product.pubdate | date }}</p>
         
-        <p class="title"><h4>{{ photo.name }}</h4></p> 
-        <p class="caption">{{ photo.caption }}</p>
-        <img ng-src="{{ photo.picture }}" height="200" width="300" class="img-responsive">
-   
+      <h4>Dichotomy of Self</h4>
+      <p>A contrast of ideas within oneself.</p>
+      <a href="http://tylertucker55.github.io/unitcalcapp" target="_blank"><img src="alyssa4.jpg" class="img-responsive" id="projectimg" style="width:100%" alt="Calculator Desk"></a>
+    </div>
+    <div class="col-sm-4"> 
+        <h4>Lens Flare</h4>
+      <p>Contemplative picture with lens flare.</p>
+        <a href="http://tylertucker55.github.io/" target="_blank"><img src="alyssaflare.jpg" class="img-responsive" id="projectimg" style="width:100%" alt="Camera HD"></a>
+    </div>
+    <div class="col-sm-4"> 
+      <h4>Smiling through darkness</h4>
+      <p>Being happy no matter what comes your way.</p>
+      <a href="https://github.com/tylertucker55/wildwooddatabase" target="_blank"><img src="alyssadark.jpg" class="img-responsive" id="projectimg" style="width:100%" alt="Calculator Desk"></a>
+    </div>
+    <div class="col-sm-4"> 
+      <h4>An Eye Single</h4>
+      <p>Pay attention to the eye.</p>
+      <a href="alyssa.html" target="_blank"><img src="alyssatempleeye.png" class="img-responsive" id="projectimg" style="width:100%" alt="Calculator Desk"></a>
+    </div>
+      <div class="col-sm-4"> 
+      <h4>Rural America</h4>
+      <p>A water tower of a small town.</p>
+      <a href="alyssa.html" target="_blank"><img src="rexwatertower.jpg" class="img-responsive" id="projectimg" style="width:100%" alt="Calculator Desk"></a>
+    </div>
   </div>
 </div><br>
 
 <footer class="container-fluid text-center">
-    <div id="footerid"></div>
+    <p>
+        <ul class="footerlist">
+            <h4><u>Projects</u></h4>
+            <li>
+                <a href="project2.html">Programming</a>
+            </li>
+            <li>
+                <a href="alyssa.html">Photography/Graphic Design</a>
+            </li>
+        </ul>
+    </p>
+  <p>
+            <a href="http://facebook.com/tydyedesign" target="_blank"><img src="fblogo.png" class="fbicon" height="38" width="38" alt="FB Icon"></a>
+            <a href="http://instagram.com/tydyedesign" target="_blank"><img src="instalogo.png" class="instaicon" height="38" width="38" alt="Instagram Icon"></a>
+            <a href="linkedin.com/in/tuckertyler"><img src="linkedlogo.png" class="linkedicon" height="38" width="38" alt="LinkedIn Icon"></a>
+            <a href="http://github.com/tylertucker55"><img src="githublogo.png" class="githubicon" height="38" width="38" alt="Github Icon"></a>
+            <br>
+            <br>
+            &copy; 2017 Tyler Tucker
+                </p>
 </footer>
     
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
-    
-    <!---Modules-->
-    <script src="alyssaapp.js"></script>
-    <script src="footer.js"></script>
-
-    <!-- Controllers -->
-    <script src="alyssacontroller.js"></script>
     
 </body>
 </html>
