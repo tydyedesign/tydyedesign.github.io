@@ -138,6 +138,18 @@ footer {
     opacity: 1;
 }
 
+#projecttitle {
+    background-color: #D46A6A;
+}
+
+#abouttitle {
+    background-color: #555794;
+}
+
+#contacttitle {
+    background-color: #64B058;
+}
+
 .headercontainer {
     background-color: lightgray;
     opacity: .8;
