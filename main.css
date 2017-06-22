@@ -168,6 +168,10 @@ footer {
     text-align: left;
 }
 
+#scrolldown {
+    display: none;
+}
+
 
 /*------------------Italic contact colors-------------------*/
 
