@@ -138,6 +138,10 @@ footer {
     opacity: 1;
 }
 
+#blogtitle {
+    background-color: #3399ff;
+}
+
 #projecttitle {
     background-color: #D46A6A;
 }
