@@ -176,6 +176,10 @@ footer {
     display: none;
 }
 
+#clickmeDiv {
+    background-color: green;
+}
+
 
 /*------------------Italic contact colors-------------------*/
 
