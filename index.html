@@ -53,7 +53,7 @@
   <div class="container text-center">
     <div class="headercontainer"><h1 class="titleh1">TyDye Design</h1></div>   
       <div class="headercontainer2"><p>By Tyler Tucker</p></div>
-      <div class="headercontainer2" id="clickmeDiv"><p>(Click Me!)</p></div>
+<!--      <div class="headercontainer2" id="clickmeDiv"><p>(Click Me!)</p></div>-->
   </div>
 </div>
   
@@ -64,6 +64,12 @@
     <div class="container-fluid bg-3 text-center">    
   <h3>&darr; Some of my work &darr;</h3><br>
     <hr>
+    
+<!--
+    <div class="container-fluid bg-3 text-center">
+        <button type="button" id="portfolioBtn" class="btn btn-info">Portfolio</button>
+    </div>
+-->
     
   <div class="row" id="scrolldown">
     <div class="col-sm-4">
@@ -94,7 +100,7 @@
     
     <script>
         $(document).ready(function(){
-    $("#headerbg").click(function(){
+    $(window).scroll(function(){
         $("#scrolldown").fadeIn('slow');
     });
 });
