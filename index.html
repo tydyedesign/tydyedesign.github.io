@@ -12,6 +12,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
@@ -53,6 +54,9 @@
     
     <div class="container-fluid bg-3 text-center">    
   <h3>&darr; Some of my work &darr;</h3><br>
+        
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+        
 <!--    <hr>-->
     
 <!--
@@ -82,34 +86,60 @@
 -->
         
 <!--        <br><br>-->
+        
+        <hr>
+<!--            <div id="bannerborder">-->
+                <h3>Top Skills</h3>
+<!--            </div>-->
+        <hr>
+        
+    <div class="row" id="scrolldown2">     
+    <div class="col-sm-4">
+      <h4>JavaScript</h4>
+      <p>JS, Angular, jQuery</p>
+      <img src="jsicon.png" class="img-responsive" id="iconimg" alt="Calculator">
+    </div>
+    <div class="col-sm-4"> 
+        <h4>HTML/CSS</h4>
+      <p>HTML/CSS, Bootstrap, w3.css</p>
+        <img src="htmlicon.png" class="img-responsive" alt="Camera HD">
+    </div>
+    <div class="col-sm-4"> 
+      <h4>Cyber Security</h4>
+      <p>VPN, Routing/Switching</p>
+      <img src="cyber_security.png" style="width:100%" alt="Calculator Desk">
+    </div>
+  </div><br>
+<br><br>
+        
         <hr>
         <h3>Recent Projects</h3>
         <hr>
         
     <div class="row" id="scrolldown2">
     <div class="col-sm-4">
-      <h4>Unit Conversion</h4>
+      <h4>Unit Conversion <i class="fas fa-external-link-alt"></i></h4>
       <p>Angular.JS</p>
       <a href="https://jsunitcalc.github.io" target="_blank"><img src="calculator.svg" class="img-responsive" id="projectimg" alt="Calculator"></a>
     </div>
     <div class="col-sm-4"> 
         <h4>This Website!</h4>
       <p>jQuery, HTML/CSS, Bootstrap</p>
-        <img src="website.png" class="img-responsive" alt="Camera HD">
+        <img src="website.png" class="img-responsive" alt="Calculator">
     </div>
     <div class="col-sm-4"> 
       <h4>Randomizer (coming soon!)</h4>
-      <p>Basic Android Application</p>
+      <p>Java Android Application</p>
       <img src="dice.svg" style="width:100%" alt="Calculator Desk">
     </div>
   </div>
 </div><br>
 <br><br>
+    
         <hr>
         <h3>Recent Blog Posts</h3>
         <hr>
         
-    <div class="row" id="scrolldown2">
     <div class="col-sm-4">
       <h4>VPN</h4>
       <p>Information about VPNs</p>
@@ -124,16 +154,15 @@
       <h4>DNS Privacy</h4>
       <p>Keeping information secure with DNS</p>
       <img src="dns.png" style="width:100%" alt="Calculator Desk">
-    </div>
-  </div>
-</div><br>
-    <br>
+    </div><br></div>
     
+    <br>
     <footer class="container-fluid text-center">
         <div id="footerid"></div>
     </footer>
     
     <script src="footer.js"></script>
+    <script src="scrollup.js"></script>
     
 <!--
     <script>

@@ -1,0 +1,15 @@
+----------------------Color Scheme---------------------------
+
+-----Tetradic Colors-----
+
+#81baff - light blue
+
+#ffb181 - light orange
+
+#fff081 - light yellow
+
+#e281ff - light purple
+
+Source - https://www.sessions.edu/color-calculator/
+
+-------------------------------------------------------------
