@@ -33,9 +33,20 @@
         <footer>
             <hr>
         </footer>
-    <script src="info.js"></script>
-<!--    <script src="ip.js"></script>-->
         
-    <script src="ipv6.js"></script>
+        <script>
+            document.getElementById("appversion").innerHTML = navigator.appVersion;
+
+            document.getElementById("osversion").innerHTML = 
+                "OS Version: " + navigator.platform;
+
+            document.getElementById("cookiecheck").innerHTML =
+                "Cookies: " + navigator.cookieEnabled;
+        </script>
+        <script>
+            $.getJSON("http://jsonip.com?callback=?", function (response) {
+                $("#ip").text(response.ip);
+            });
+        </script>
     </body>
 </html>
