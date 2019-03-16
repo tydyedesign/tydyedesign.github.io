@@ -347,3 +347,8 @@ button.night-mode {
 body.night-mode {
   background: #232732;
 }
+
+#infobody {
+    padding: 1em;
+    margin: 1em;
+}
