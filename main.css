@@ -10,8 +10,10 @@
       padding: 25px;
     }
 
-#portfolioBtn {
-    color:;
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
 }
 
 footer {
@@ -133,9 +135,10 @@ footer {
 }
 
 #headerbg {
-    background-image: none;
-    background-repeat: no-repeat;
     background-size: cover;
+    height: 200px;
+    background-color: blue;
+    background-image: linear-gradient(white, #81baff);
 }
 
 .titleh1 {
@@ -143,15 +146,17 @@ footer {
 }
 
 #blogtitle {
-    background-color: #3399ff;
+    background-color: blue;
+    background-image: linear-gradient(white, #81baff);
 }
 
 #projecttitle {
-    background-color: #D46A6A;
+    background-color: #ffb181;
+    background-image: linear-gradient(white, #ffb181);
 }
 
 #abouttitle {
-    background-color: #555794;
+    background-color: #fff081;
 }
 
 #contacttitle {
@@ -159,14 +164,15 @@ footer {
 }
 
 .headercontainer {
-    background-color: lightgray;
+    background-color: blue;
+    background-image: linear-gradient(#e281ff, #81baff);
     opacity: .8;
 }
 
 .headercontainer2 {
-    background-color: lightgray;
+    background-color: #e281ff;
+    background-image: linear-gradient(#81baff, #e281ff);
     opacity: .7;
-   
 }
 
 #success_message{ display: none;}
@@ -221,4 +227,9 @@ footer {
 
 #number:hover {
     color: #C654D2;
+}
+
+#compimg {
+    width: 25px;
+    height: 25px;
 }

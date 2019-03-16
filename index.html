@@ -1,26 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
   <title>TyDye Design | Home</title>
-    
-    <link rel="shortcut icon" type="image/png" href="camera.png"/>
-    
+    <link rel="shortcut icon" type="image/png" href="responsive.png"/>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
     <meta name="description" content="This is TyDyeDesign: A portfolio site about me, Tyler Tucker. Frontend web developer and photographer.">
     <meta name="keywords" content="BYUI, CIT230, CIT, frontend web development, github, weather api, weather underground, weather page, weather project, html, javascript, jquery, css, tyler tucker, blog, tylers corner">
     <meta name="author" content="Tyler Tucker, Tydye design">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
@@ -32,7 +23,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="index.html"><i class="fa fa-camera"></i> TyDye Design</a>
+      <a class="navbar-brand" href="index.html"><i class="fa fa-desktop"></i> TyDye Design</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -51,9 +42,8 @@
 
 <div class="jumbotron" style="" id="headerbg">
   <div class="container text-center">
-    <div class="headercontainer"><h1 class="titleh1">TyDye Design</h1></div>   
+    <div class="headercontainer"><h1 class="titleh1">TyDye Design</h1></div>
       <div class="headercontainer2"><p>By Tyler Tucker</p></div>
-<!--      <div class="headercontainer2" id="clickmeDiv"><p>(Click Me!)</p></div>-->
   </div>
 </div>
   
@@ -63,7 +53,7 @@
     
     <div class="container-fluid bg-3 text-center">    
   <h3>&darr; Some of my work &darr;</h3><br>
-    <hr>
+<!--    <hr>-->
     
 <!--
     <div class="container-fluid bg-3 text-center">
@@ -71,6 +61,7 @@
     </div>
 -->
     
+<!--
   <div class="row" id="scrolldown">
     <div class="col-sm-4">
       <h4>Projects</h4>
@@ -88,22 +79,74 @@
       <a href="contact2.html" target="_blank"><img src="blurrystreetbokeh.jpg" class="img-responsive" id="projectimg" style="width:100%" alt="Calculator Desk"></a>
     </div>
   </div>
+-->
         
+<!--        <br><br>-->
+        <hr>
+        <h3>Recent Projects</h3>
+        <hr>
+        
+    <div class="row" id="scrolldown2">
+    <div class="col-sm-4">
+      <h4>Unit Conversion</h4>
+      <p>Angular.JS</p>
+      <a href="https://jsunitcalc.github.io" target="_blank"><img src="calculator.svg" class="img-responsive" id="projectimg" alt="Calculator"></a>
+    </div>
+    <div class="col-sm-4"> 
+        <h4>This Website!</h4>
+      <p>jQuery, HTML/CSS, Bootstrap</p>
+        <img src="website.png" class="img-responsive" alt="Camera HD">
+    </div>
+    <div class="col-sm-4"> 
+      <h4>Randomizer (coming soon!)</h4>
+      <p>Basic Android Application</p>
+      <img src="dice.svg" style="width:100%" alt="Calculator Desk">
+    </div>
+  </div>
 </div><br>
-
 <br><br>
-
-<footer class="container-fluid text-center">
-   <div id="footerid"></div>
-</footer>
+        <hr>
+        <h3>Recent Blog Posts</h3>
+        <hr>
+        
+    <div class="row" id="scrolldown2">
+    <div class="col-sm-4">
+      <h4>VPN</h4>
+      <p>Information about VPNs</p>
+      <a href="vpntips.html"><img src="vpn.svg" class="img-responsive" id="projectimg" alt="Calculator"></a>
+    </div>
+    <div class="col-sm-4"> 
+        <h4>Password Tips</h4>
+      <p>Password security ideas</p>
+        <img src="password.svg" class="img-responsive" alt="Camera HD">
+    </div>
+    <div class="col-sm-4"> 
+      <h4>DNS Privacy</h4>
+      <p>Keeping information secure with DNS</p>
+      <img src="dns.png" style="width:100%" alt="Calculator Desk">
+    </div>
+  </div>
+</div><br>
+    <br>
+    
+    <footer class="container-fluid text-center">
+        <div id="footerid"></div>
+    </footer>
+    
     <script src="footer.js"></script>
     
+<!--
     <script>
         $(document).ready(function(){
     $(window).scroll(function(){
         $("#scrolldown").fadeIn('slow');
     });
+//    $("#scrolldown").scroll(function(){
+//        $("#scrolldown2").fadeIn('slow');
+//    });
 });
     </script>
+-->
+    </div>
 </body>
 </html>
