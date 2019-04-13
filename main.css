@@ -159,10 +159,12 @@ footer {
 
 #abouttitle {
     background-color: #fff081;
+    background-image: linear-gradient(white, #fff081);
 }
 
 #contacttitle {
     background-color: #64B058;
+    background-image: linear-gradient(white, #64B058);
 }
 
 .headercontainer {
@@ -351,4 +353,9 @@ body.night-mode {
 #infobody {
     padding: 1em;
     margin: 1em;
+}
+
+.sm_icon {
+    width: 5%;
+    height: 5%;
 }
