@@ -8,19 +8,51 @@
         <meta name="description" content="This is TyDyeDesign: A portfolio site about me, Tyler Tucker. Frontend web developer and photographer.">
         <meta name="keywords" content="BYUI, CIT, frontend web development, github, html, javascript, jquery, css, tyler tucker, blog, tydyedesign, cs, angular">
         <meta name="author" content="Tyler Tucker, TyDye Design">
-        
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="main.css">
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
 <!--        <script src="jquery.input-ip-address-control-1.0.min.js"></script>-->
 
     </head>
-    <body id="infobody">
+    <body>
         <header>
-            <h1>Device Info</h1>
+          <body id="body">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html"><i class="fa fa-desktop"></i> TyDye Design</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li class="active"><a href="project2.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact2.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="tel:9518218031"><span class="glyphicon glyphicon-phone"></span> 951-821-8031</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron" style="" id="headerbg">
+  <div class="container text-center">
+    <div class="headercontainer"><h1 id="projecttitle">InfoChecker JS</h1></div>
+      <div class="headercontainer2"><p>By Tyler Tucker</p></div>
+  </div>
+</div>
             <hr>
         </header>
         <main>
+            <div class="container-fluid bg-3 text-center">
+                <i class="bg-white text-primary"><b>About App</b>: Checks the information of the current device that you're using and displays it here.</i><br><br>
             <h3>App Version</h3>
             <p id="appversion"></p>
             <hr>
@@ -35,10 +67,14 @@
             
             <h3>Ip Address </h3>
             <p id="ip"></p>
+            </div>
         </main>
-        <footer>
-            <hr>
-        </footer>
+            
+               <footer class="container-fluid text-center">
+                    <div id="footerid"></div>
+                </footer>
+    
+        <script src="footer.js"></script>
         
         <script src="jquery1.js"></script>
         

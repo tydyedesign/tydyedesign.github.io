@@ -143,6 +143,11 @@ footer {
     background-image: linear-gradient(white, #81baff);
 }
 
+#infocheck_title {
+    background-color: blue;
+    background-image: linear-gradient(white, #81baff);
+}
+
 .titleh1 {
     opacity: 1;
 }
